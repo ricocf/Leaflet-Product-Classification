@@ -53,6 +53,10 @@ Overall accuracy: 85.06% <br>
 Overall top 5 accuracy: 93.85% <br>
 
 #### Combined result:
+[Combined result](https://github.com/ricocf/Leaflet-Product-Classification/blob/main/README_combined_result.md): <a target="_blank" href="https://colab.research.google.com/github/ricocf/Leaflet-Product-Classification/blob/main/combined_result.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 <b> Overall accuracy: 97.44% </b>
 
 ### Credits
