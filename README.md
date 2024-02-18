@@ -57,7 +57,7 @@ Overall top 5 accuracy: 93.85% <br>
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-<b> Overall accuracy: 97.44% </b>
+<b> Overall estimated accuracy: 97.44% </b>
 
 ### Credits
 This project is created for the Kaggle competition "Retail Products Classification 2023".
