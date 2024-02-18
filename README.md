@@ -21,6 +21,8 @@ This Git repository contains the code for the Kaggle competition: [Retail Produc
 Please go through README for image and text model
 
 #### Image Model
+[Image Model Guide](https://github.com/ricocf/Leaflet-Product-Classification/blob/main/image_model/README_image_model.md)
+
 Execute train_model.ipynb to train the model. <a target="_blank" href="https://colab.research.google.com/github/ricocf/Leaflet-Product-Classification/blob/main/image_model/train_model.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
