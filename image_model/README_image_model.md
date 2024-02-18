@@ -29,7 +29,6 @@ The saved model is zipped for easy distribution and deployment.
 </p>
 
 #### Performance Metrics (Epoch 15)
-<b>Training Loss: 9.3738e-04 <br>
 Training Accuracy: 99.98%<br>
 Validation Loss: 0.4779<br>
 Validation Accuracy: 92.24%<br>
