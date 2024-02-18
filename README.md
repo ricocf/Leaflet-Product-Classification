@@ -1,21 +1,39 @@
 ## Leaflet Product Classification
 
-This Git repository contains the code for the Kaggle competition: Retail Products Classification 2023.
+![image](https://github.com/ricocf/Leaflet-Product-Classification/assets/67761683/3bed7e35-0b8d-4598-9d9e-c09297708219)
+
+This Git repository contains the code for the Kaggle competition: [Retail Products Classification 2023.](https://www.kaggle.com/competitions/retail-products-classification-2023)
 
 ### Abstract
 <p align="justify"> This repository presents a model for fine-grained product recognition, specifically based on leaflet images. The dataset comprises 41.6k manually annotated product images categorized into 832 classes. These images were extracted from advertisement leaflets collected over several years from various European retailers. The project explores three different approaches for fine-grained product classification: Classification by Image, by Text, and by Image and Text. The "Classification by Text" approach utilizes text extracted directly from the leaflet product images. The study demonstrates that combining image and text inputs improves the classification accuracy, particularly for visually challenging products. The final model achieves an impressive accuracy of 97% with a Top-3 score of 99.2%. </p> 
 
 ### Repository Contents
-train_model.ipynb: Jupyter notebook containing code for model training.
-test_model.ipynb: Jupyter notebook for testing the trained model and generating predictions.
+<ul>
+  <li><a href="https://github.com/ricocf/Leaflet-Product-Classification/blob/main/image_model/train_model.ipynb">image_model/train_model.ipynb:</a> Jupyter notebook containing code for model training.</li>
+  <li><a href="https://github.com/ricocf/Leaflet-Product-Classification/blob/main/image_model/test_model.ipynb">image_model/test_model.ipynb:</a> Jupyter notebook for testing the trained model and generating predictions.</li>
+  <li><a href="https://github.com/ricocf/Leaflet-Product-Classification/blob/main/text_model/OCR_text_extraction.ipynb">text_model/OCR_text_extraction.ipynb:</a> Jupyter notebook for text extraction using Tesseract.</li>
+  <li><a href="text_model/OCR_pattern_extraction.ipynb">text_model/OCR_pattern_extraction.ipynb:</a> Jupyter notebook for text extraction using Tesseract with patterns.</li>
+  <li><a href="https://github.com/ricocf/Leaflet-Product-Classification/tree/main/data/extracted_text_data">/data/extracted_text_data:</a> Extracted text data for different configurations.</li>
+</ul>
 
 ### Usage
-Execute train_model.ipynb to train the model.
+Please go through README for image and text model
 
-Use test_model.ipynb for testing and predicting with the trained model.
+#### Image Model
+Execute train_model.ipynb to train the model. <a target="_blank" href="https://colab.research.google.com/github/ricocf/Leaflet-Product-Classification/blob/main/image_model/train_model.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+Use test_model.ipynb for testing and predicting with the trained model. <a target="_blank" href="https://colab.research.google.com/github/ricocf/Leaflet-Product-Classification/blob/main/image_model/test_model.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+#### Text Model
+[OCR Guide](https://github.com/ricocf/Leaflet-Product-Classification/blob/main/text_model/README_OCR.md)
 
 ### Credits
 This project is created for the Kaggle competition "Retail Products Classification 2023".
+
 If you find this code helpful, consider giving it a star!
 
 ### References
