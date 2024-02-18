@@ -40,6 +40,21 @@ Execute text_model.ipynb to train the model. <a target="_blank" href="https://co
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+### Key Findings:
+
+#### Image Model:
+<b> Top 5 accuracy: 97.08% <br> </b>
+Number of misclassified images: 653 
+
+#### Text Model:
+Accuracy on misclassified images from the image model: 67.38% <br>
+Top 5 accuracy on misclassified images: 93.85% <br>
+Overall accuracy: 85.06% <br>
+Overall top 5 accuracy: 93.85% <br>
+
+#### Combined result:
+<b> Overall accuracy: 97.44% </b>
+
 ### Credits
 This project is created for the Kaggle competition "Retail Products Classification 2023".
 
