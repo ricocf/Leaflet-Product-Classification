@@ -18,7 +18,7 @@ This Git repository contains the code for the Kaggle competition: [Retail Produc
 </ul>
 
 ### Usage
-Please go through README for image and text model
+Please review the README files located in the respective directories for information regarding the image and text models.
 
 #### Image Model
 [Image Model Guide](https://github.com/ricocf/Leaflet-Product-Classification/blob/main/image_model/README_image_model.md)
