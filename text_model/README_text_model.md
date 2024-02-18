@@ -38,3 +38,6 @@ Notebook: <a target="_blank" href="https://colab.research.google.com/github/rico
 
 Follow on-screen instructions to specify the image directory and configure processing parameters.
 
+### Evaluation
+The accuracy of the Multinomial Naive Bayes model on the validation dataset is 85%.
+
